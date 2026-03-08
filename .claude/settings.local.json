@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(vercel:*)",
+      "Bash(sudo npm:*)",
+      "Read(//Users/andrewlennox/.local/share/com.vercel.cli/**)",
+      "Read(//Users/andrewlennox/.config/vercel/**)",
+      "Read(//Users/andrewlennox/**)",
+      "Bash(VERCEL_CONFIG_DIR=\"$HOME/Library/Application Support/com.vercel.cli\" npx vercel:*)",
+      "Bash(python3:*)",
+      "Bash(npx vercel:*)",
+      "Bash(git:*)"
+    ]
+  }
+}
