@@ -98,7 +98,12 @@ export default function Map({ weatherData, selectedLocation, onSelectLocation }:
                   </span>
                 </div>
 
-                <p style={{ fontWeight: '600', fontSize: '14px', margin: 0 }}>{item.location.name}</p>
+                <p style={{ fontWeight: '600', fontSize: '14px', margin: 0 }}>
+                  {item.location.type === 'Store' && (
+                    <span style={{ color: '#64748b', fontWeight: '400', marginRight: '6px' }}>#{item.location.id}</span>
+                  )}
+                  {item.location.name}
+                </p>
                 <p style={{ color: '#94a3b8', fontSize: '12px', margin: 0 }}>
                   {item.location.address}
                 </p>
