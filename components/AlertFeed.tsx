@@ -103,7 +103,7 @@ export default function AlertFeed({ weatherData, onSelectLocation, selectedLocat
       </div>
 
       {/* Country + State/Province dropdowns */}
-      <div className="px-3 py-1.5 border-b border-slate-700 flex gap-2 flex-shrink-0">
+      <div className="px-3 py-1.5 border-b border-slate-700 flex gap-2 flex-shrink-0 flex-wrap">
         <select
           value={countryFilter}
           onChange={(e) => handleCountryChange(e.target.value)}
